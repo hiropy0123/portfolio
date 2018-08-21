@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @work.title %>
+</p>
+
+<p>
+  <strong>Detail:</strong>
+  <%= @work.detail %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @work.year %>
+</p>
+
+<%= link_to '編集', edit_work_path(@work) %> |
+<%= link_to '戻る', works_path %>

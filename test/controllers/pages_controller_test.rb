@@ -11,9 +11,4 @@ class PagesControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
-  test "should get works" do
-    get pages_works_url
-    assert_response :success
-  end
-
 end
